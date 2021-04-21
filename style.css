@@ -12,23 +12,13 @@
   list-style: none;
 }
 
+/* home page starts here */
+
+/* logo */
+
 .logo {
   font-size: 2rem;
   margin-top: 1rem;
-}
-
-.cta {
-  background: #68e1fd;
-  font-weight: 500;
-}
-
-.cta:hover {
-  background: #09cffc;
-  transition: 0.3s;
-}
-
-.heading {
-  margin-top: 3rem;
 }
 
 header {
@@ -36,16 +26,26 @@ header {
   flex-direction: column;
 }
 
+/* heading afte the logo */
+.heading {
+  margin-top: 3rem;
+}
+
+/* svg/img  */
 header div img {
   width: 22rem;
   margin-top: 3rem;
 }
+
+/* home section ends here */
+/* about section starts here */
 
 .about {
   display: flex;
   flex-direction: column;
 }
 
+/* image of the developer  */
 .hero {
   margin: 0 auto;
 }
@@ -53,6 +53,7 @@ header div img {
   margin-bottom: 0.5rem;
 }
 
+/* information about developer */
 .my-info__detail {
   padding: 1rem;
   background-image: linear-gradient(
@@ -63,3 +64,48 @@ header div img {
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+
+/* about section ends here */
+
+/* project section starts here */
+
+main .main__1 {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* react 5 projects container  */
+.main_container {
+  background-image: url(img/pexels-jopwell-2422290.jpg);
+  transition: 0.3s;
+  transition: transform 0.2s;
+}
+
+.main_container:hover {
+  background: #0ed0fb;
+  transform: scale(1.1);
+}
+
+.main_container .project_description {
+  opacity: 0;
+}
+
+.main_container .project_description:hover {
+  opacity: 1;
+}
+
+.main_container p {
+  margin-bottom: 1rem;
+}
+
+/* call to action button */
+main .cta {
+  color: cornsilk;
+  border: 3px solid #7510f7;
+}
+
+main .cta:hover {
+  background: #7510f7;
+}
+
+/* project section ends here */
