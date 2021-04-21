@@ -33,7 +33,7 @@ header {
 
 /* svg/img  */
 header div img {
-  width: 22rem;
+  width: 20.2rem;
   margin-top: 3rem;
 }
 
@@ -109,3 +109,25 @@ main .cta:hover {
 }
 
 /* project section ends here */
+
+/* skills section starts here  */
+
+.skills {
+  text-align: center;
+}
+.skills p {
+  margin-bottom: 2rem;
+}
+
+.skills .svg {
+  margin-bottom: 2rem;
+}
+.skills img {
+  width: 5rem;
+}
+
+.figma img {
+  width: 4rem;
+}
+
+/* skills section starts here  */
