@@ -22,6 +22,7 @@
 }
 
 header {
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -44,6 +45,7 @@ header div img {
 .about {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 /* image of the developer  */
@@ -69,6 +71,9 @@ header div img {
 /* about section ends here */
 
 /* project section starts here */
+main {
+  height: 100vh;
+}
 
 main .main__1 {
   margin: 2rem 0;
@@ -115,6 +120,7 @@ main .cta:hover {
 
 .skills {
   text-align: center;
+  height: 100vh;
 }
 .skills p {
   margin-bottom: 2rem;
