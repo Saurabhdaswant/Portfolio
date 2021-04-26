@@ -117,10 +117,11 @@ main .cta:hover {
 /* project section ends here */
 
 /* skills section starts here  */
-
+section .skills {
+  height: 100vh;
+}
 .skills {
   text-align: center;
-  height: 100vh;
 }
 .skills p {
   margin-bottom: 2rem;
