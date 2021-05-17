@@ -18,7 +18,7 @@
 
 .logo {
   font-size: 2rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 header {
@@ -28,9 +28,9 @@ header {
 }
 
 /* heading afte the logo */
-.heading {
+/* .heading {
   margin-top: 3rem;
-}
+} */
 
 /* svg/img  */
 header div img {

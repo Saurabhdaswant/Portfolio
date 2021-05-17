@@ -16,6 +16,8 @@
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
+  /* background-color: #f5faff; */
+  color: #001833;
 }
 /*? always use this  */
 /* img {
@@ -39,7 +41,7 @@
 /*? logo */
 .logo {
   font-size: 2.5rem;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 /*? logo ends here */
 
@@ -53,7 +55,6 @@ ul {
 .heading {
   font-size: 2.625rem;
   text-transform: uppercase;
-  color: #292929;
   line-height: 2.7rem;
   margin-bottom: 1rem;
 }
@@ -61,14 +62,12 @@ ul {
 /*  title */
 .heading_sub--heading {
   font-size: 1.5625rem;
-  color: #333333;
   margin-bottom: 1rem;
 }
 
 /* subtitle */
 .heading_sub--heading_subtitle {
   font-size: 18px;
-  color: #3d3d3d;
 }
 
 /*  main title  */
@@ -76,16 +75,15 @@ ul {
 /* button / links */
 .cta {
   padding: 0.5rem;
-  color: #273037;
   width: 10rem;
   border-radius: 5px;
-  border: 2px solid #68e1fd;
-  background: none;
+  border: none;
+  background: #68e1fd;
   text-transform: uppercase;
 }
 
 .cta:hover {
-  background: #68e1fd;
+  background: #65d8f1;
   transition: 0.5s;
 }
 
