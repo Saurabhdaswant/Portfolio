@@ -17,6 +17,10 @@
   text-decoration: none;
   list-style: none;
 }
+/*? always use this  */
+/* img {
+  max-width: 100%;
+} */
 /*! must before all ends here*/
 
 /*! container styling */
@@ -150,3 +154,9 @@ ul {
     max-width: 23%;
   }
 } */
+
+/* using min-hight is very good practive */
+
+@media (min-width: 600px) {
+  /* start from here */
+}
