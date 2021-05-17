@@ -60,9 +60,12 @@ header div img {
 .my-info__detail {
   padding: 1rem;
   background-image: linear-gradient(
-    to left,
-    rgba(255, 0, 0, 0),
-    rgb(104, 225, 253)
+    to right bottom,
+    #00c7ff,
+    #00b4ff,
+    #00a0ff,
+    #008afc,
+    #0071f2
   );
   border-radius: 10px;
   margin-bottom: 1rem;
