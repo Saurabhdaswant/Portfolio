@@ -22,7 +22,7 @@
 }
 
 header {
-  height: 100vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
 }
@@ -45,7 +45,7 @@ header div img {
 .about {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* image of the developer  */
