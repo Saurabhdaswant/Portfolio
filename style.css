@@ -82,7 +82,9 @@ main .main__1 {
 
 /* react 5 projects container  */
 .main_container {
-  background-image: url(img/pexels-jopwell-2422290.jpg);
+  background-image: url(img/project_dice.png);
+  background-size: cover;
+  background-position: center;
   transition: 0.3s;
   transition: transform 0.2s;
 }
