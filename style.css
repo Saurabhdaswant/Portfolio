@@ -167,6 +167,7 @@ main .cta:hover {
 /* skills section ends here  */
 
 /* form  section starts here  */
+
 .form {
   margin-bottom: 5rem;
 }
@@ -174,10 +175,14 @@ main .cta:hover {
   text-align: center;
 }
 
+.form .input input,
+.form textarea {
+  border: 1px solid #001833;
+}
+
 .form .input input {
   padding: 0.7rem 0 1rem 0.7rem;
   width: 99%;
-  border: 1px solid silver;
   margin-bottom: 1rem;
 }
 
@@ -185,7 +190,6 @@ main .cta:hover {
   display: block;
   width: 99%;
   padding: 1rem 0 4rem 0.7rem;
-  border: 1px solid silver;
 }
 
 .form .cta {
@@ -197,6 +201,10 @@ main .cta:hover {
 .form textarea,
 .form .cta {
   border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  color: #001833;
 }
 
 .footer {
