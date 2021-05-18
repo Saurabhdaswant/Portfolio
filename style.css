@@ -107,11 +107,11 @@ main .main__1 {
 /* call to action button */
 main .cta {
   color: cornsilk;
-  border: 3px solid #7510f7;
+  border: 3px solid #001833;
 }
 
 main .cta:hover {
-  background: #7510f7;
+  background: #001833;
 }
 
 /* project section ends here */
@@ -121,12 +121,12 @@ main .cta:hover {
 .skills {
   text-align: center;
 }
-.skills p {
+.skills .heading_sub--heading_subtitle {
   margin-bottom: 2rem;
 }
 
 .skills .svg {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .skills img {
   width: 5rem;
@@ -134,6 +134,17 @@ main .cta:hover {
 
 .figma img {
   width: 4rem;
+}
+
+.skill__main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill__box {
+  padding: 1rem;
 }
 
 /* skills section ends here  */
@@ -165,6 +176,13 @@ main .cta:hover {
   margin-top: 1rem;
   font-weight: bold;
   /* padding: 0.5rem 22rem; */
+}
+
+.form,
+.form .input input,
+.form textarea,
+.form .cta {
+  border-radius: 5px;
 }
 .footer {
   text-align: center;
