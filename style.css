@@ -82,13 +82,26 @@ main .main__1 {
 
 /* react 5 projects container  */
 .main_container {
-  background-image: url(img/project_dice.png);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   transition: 0.3s;
   transition: transform 0.2s;
 }
 
+.dice__game {
+  background-image: url(img/project_dice.png);
+}
+
+.restaurant__web {
+  background-image: url(img/project\ restaurant.png);
+  background-origin: content-box;
+}
+
+.javascript__pro {
+  background-image: url(img/javascript_projects.png);
+  background-origin: content-box;
+}
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
