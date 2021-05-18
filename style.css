@@ -172,10 +172,7 @@ main .cta:hover {
 }
 
 .form .cta {
-  text-align: center;
   margin-top: 1rem;
-  font-weight: bold;
-  /* padding: 0.5rem 22rem; */
 }
 
 .form,
