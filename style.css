@@ -11,6 +11,13 @@
   text-decoration: none;
   list-style: none;
 }
+body {
+  background-color: #f5faff;
+}
+
+/* img {
+  max-width: 100%;
+} */
 
 /* home page starts here */
 
@@ -18,7 +25,6 @@
 
 .logo {
   font-size: 2rem;
-  /* margin-top: 1rem; */
 }
 
 header {
@@ -26,11 +32,6 @@ header {
   display: flex;
   flex-direction: column;
 }
-
-/* heading afte the logo */
-/* .heading {
-  margin-top: 3rem;
-} */
 
 /* svg/img  */
 header div img {
@@ -209,7 +210,10 @@ main .cta:hover {
 
 .footer {
   text-align: center;
-  background: #0ed0fb;
+  background-image: url(img/wave.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
   padding: 4rem;
 }
@@ -219,3 +223,47 @@ main .cta:hover {
   margin-left: 1rem;
 }
 /* form  section ends here  */
+
+@media (min-width: 510px) {
+  /* body {
+    background-color: black;
+  } */
+
+  /* home page starts here */
+
+  /* logo */
+
+  header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  /*  main title /main heading */
+  .heading {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  /*  title */
+  .heading_sub--heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* subtitle */
+  .heading_sub--heading_subtitle {
+    font-size: 30px;
+  }
+
+  /*  main title  */
+
+  .main-svg {
+    width: 60%;
+    max-width: 600px;
+  }
+}

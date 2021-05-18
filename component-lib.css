@@ -16,9 +16,9 @@
   scroll-behavior: smooth;
   text-decoration: none;
   list-style: none;
-  /* background-color: #f5faff; */
   color: #001833;
 }
+
 /*? always use this  */
 /* img {
   max-width: 100%;
@@ -154,5 +154,6 @@ ul {
 
 /* using min-hight is very good practive */
 
-@media (min-width: 600px) {
-}
+/* img {
+  max-width: 100%;
+} */
