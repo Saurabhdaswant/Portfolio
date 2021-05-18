@@ -122,11 +122,13 @@ main .main__1 {
 /* call to action button */
 main .cta {
   color: cornsilk;
-  border: 3px solid #001833;
+  background: #001833;
 }
 
 main .cta:hover {
-  background: #001833;
+  color: #001833;
+  border: 3px solid #001833;
+  background: #0ed0fb;
 }
 
 /* project section ends here */
