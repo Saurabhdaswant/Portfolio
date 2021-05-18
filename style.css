@@ -44,22 +44,15 @@ header div img {
 /* about section starts here */
 
 .about {
-  display: flex;
-  flex-direction: column;
-  /* height: 100vh; */
+  margin-bottom: 10rem;
 }
 
 /* image of the developer  */
-.hero {
-  margin: 0 auto;
-}
-.hero img {
-  margin-bottom: 0.5rem;
-}
 
 /* information about developer */
 .my-info__detail {
   padding: 1rem;
+  gap: 2rem;
   background-image: linear-gradient(
     to right bottom,
     #00c7ff,
@@ -69,7 +62,6 @@ header div img {
     #0071f2
   );
   border-radius: 10px;
-  margin-bottom: 1rem;
 }
 
 /* about section ends here */
@@ -138,6 +130,7 @@ main .cta:hover {
 
 .skills {
   text-align: center;
+  margin-top: 10rem;
 }
 .skills .heading_sub--heading_subtitle {
   margin-bottom: 2rem;
@@ -170,6 +163,7 @@ main .cta:hover {
 /* form  section starts here  */
 
 .form {
+  margin-top: 10rem;
   margin-bottom: 5rem;
 }
 .form h1 {
@@ -251,7 +245,7 @@ main .cta:hover {
 
   /* subtitle */
   .heading_sub--heading_subtitle {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   /*  main title  */
@@ -260,4 +254,30 @@ main .cta:hover {
     width: 60%;
     max-width: 600px;
   }
+
+  .hero {
+    margin: 0 auto;
+  }
+
+  .hero img {
+    margin-bottom: 0;
+  }
+
+  .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 700px) {
+  /* form  section starts here  */
+
+  .form {
+    max-width: 50%;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+  }
+
+  /* form  section ends here  */
 }
