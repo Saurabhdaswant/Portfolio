@@ -86,16 +86,16 @@ main .main__1 {
 }
 
 .dice__game {
-  background-image: url(img/project_dice.png);
+  background-image: url(img/project_dice.jpg);
 }
 
 .restaurant__web {
-  background-image: url(img/project\ restaurant.png);
+  background-image: url(img/project\ restaurant.jpg);
   background-origin: content-box;
 }
 
 .javascript__pro {
-  background-image: url(img/javascript_projects.png);
+  background-image: url(img/javascript_projects.jpg);
   background-origin: content-box;
 }
 .main_container:hover {
