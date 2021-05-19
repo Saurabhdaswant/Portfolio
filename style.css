@@ -83,6 +83,7 @@ main .main__1 {
   background-repeat: no-repeat;
   transition: 0.3s;
   transition: transform 0.2s;
+  cursor: pointer;
 }
 
 .dice__game {
