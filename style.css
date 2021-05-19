@@ -86,11 +86,11 @@ main .main__1 {
 }
 
 .dice__game {
-  background-image: url(img/project_dice.jpg);
+  background-image: url(img/thedicegame.jpg);
 }
 
 .restaurant__web {
-  background-image: url(img/project\ restaurant.jpg);
+  background-image: url(img/restaurant.jpg);
   background-origin: content-box;
 }
 
