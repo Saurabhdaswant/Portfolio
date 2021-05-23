@@ -87,18 +87,21 @@ main .main__1 {
 }
 
 .dice__game {
-  background-image: url(img/thedicegame.jpg);
+  background-image: url(img/dice.png);
 }
 
 .restaurant__web {
-  background-image: url(img/restaurant.jpg);
-  background-origin: content-box;
+  background-image: url(img/restaurant.png);
 }
 
 .javascript__pro {
-  background-image: url(img/javascript_projects.jpg);
-  background-origin: content-box;
+  background-image: url(img/shotsnapp-1621769290.929.png);
 }
+
+.mininontalk {
+  background-image: url(img/banana.png);
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
