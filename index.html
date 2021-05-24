@@ -151,16 +151,16 @@
     <form name="contact" method="POST" data-netlify="true" class=" form container  container_center">
         <h1 class="heading_sub--heading">Leave a Message!</h1>
         <div class="input">
-            <input type="text" placeholder="your name:">
+            <label>Your Name: <input type="text" name="name" /></label>
         </div>
         <div class="input">
-            <input type="email" name="email" placeholder="email:">
+            <label>Your Email: <input type="email" name="email" /></label>
 
         </div>
         <div class="input">
-            <input type="text" placeholder="subject:">
+            <label>subject: <input type="text" name="subject" /></label>
         </div>
-        <textarea name="your message" id="" placeholder="your message:"></textarea>
+        <label>Message: <textarea name="message"></textarea></label>
         <button type="submit" class="cta"><a class="heading_sub--heading_subtitle">submit</a></button>
     </form>
 
