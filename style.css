@@ -192,6 +192,8 @@ main .cta:hover {
   display: block;
   width: 99%;
   padding: 1rem 0 4rem 0.7rem;
+  resize: vertical;
+  max-height: 200px;
 }
 
 .form .cta {
