@@ -24,6 +24,16 @@ body {
 
 /* home page starts here */
 
+.scrolling {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #0ed0fb;
+
+  /* transition: width 1s ease-in; */
+}
+
 /* logo */
 
 .logo {
