@@ -33,23 +33,14 @@
 
 .container_center {
   max-width: 900px;
-  margin: 2rem auto;
+  margin: 0 auto;
 }
 
 /*! container styling end here */
 
 /*? logo */
-.logo {
-  font-size: 2rem;
-  /* margin-top: 1rem; */
-}
+
 /*? logo ends here */
-
-/* displayed none coz afterwards here burger will be added*/
-
-ul {
-  display: none;
-}
 
 /*  main title /main heading */
 .heading {

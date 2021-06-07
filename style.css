@@ -18,11 +18,9 @@ body {
   background-color: #f5faff;
 }
 
-/* img {
-  max-width: 100%;
-} */
-
 /* home page starts here */
+
+/* cool line in the top after scrolling */
 
 .scrolling {
   position: fixed;
@@ -30,8 +28,6 @@ body {
   left: 0;
   height: 5px;
   background-color: #0ed0fb;
-
-  /* transition: width 1s ease-in; */
 }
 
 /* logo */
@@ -39,6 +35,26 @@ body {
 .logo {
   font-family: "Rubik", sans-serif;
 }
+
+/* navbar */
+
+.navbar {
+  padding: 3rem;
+  /* background-color: black; */
+}
+
+ul {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+ul a:hover {
+  color: #0ed0fb;
+  transition: color 50ms;
+}
+
+/* navbar ends here */
 
 header {
   height: 80vh;
