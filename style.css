@@ -32,22 +32,37 @@ body {
 
 /* logo */
 
-.logo {
-  font-family: "Rubik", sans-serif;
-}
-
 /* navbar */
 
 .navbar {
   padding: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   /* background-color: black; */
 }
+
+.navbar button {
+  border-radius: 50%;
+  padding: 0.5rem;
+  border: none;
+}
+
+/* .logo {
+  font-family: "Rubik", sans-serif;
+} */
 
 ul {
   display: flex;
   gap: 1.5rem;
   justify-content: center;
 }
+
+/* .navbar h1,
+.navbar a,
+.navbar div {
+  color: #0071f2;
+} */
 
 ul a:hover {
   color: #0ed0fb;
