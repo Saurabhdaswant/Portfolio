@@ -143,6 +143,10 @@ main .main__1 {
   background-image: url(img/banana.png);
 }
 
+.valyrianSpeak {
+  background-image: url(img/valyrian.png);
+}
+
 .stopwatch {
   background-image: url(img/stopwatch.png);
 }
