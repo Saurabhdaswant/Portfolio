@@ -155,6 +155,11 @@ main .main__1 {
   background-image: url(/img/recomendations.png);
 }
 
+.first__react {
+  background-image: url(/img/logo512.png);
+  background-size: contain;
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
