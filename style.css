@@ -160,6 +160,11 @@ main .main__1 {
   background-size: contain;
 }
 
+.My__Todo {
+  background-image: url(/img/realTodo.png);
+  /* background-size: contain; */
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
