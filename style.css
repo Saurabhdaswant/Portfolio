@@ -165,6 +165,10 @@ main .main__1 {
   /* background-size: contain; */
 }
 
+.typemaster {
+  background-image: url(/img/typemaster.png);
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
