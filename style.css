@@ -169,6 +169,10 @@ main .main__1 {
   background-image: url(/img/typemaster.png);
 }
 
+.cli {
+  background-image: url(/img/logo-javascript.svg);
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
