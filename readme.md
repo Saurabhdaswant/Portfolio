@@ -1,4 +1,4 @@
-# what i learned while making react app
+<!-- # what i learned while making react app
 
 - jsx
 - components
@@ -18,4 +18,4 @@
 - map()
 - callback in map 
 - onClick for any item, it show which item was clicked from the list
-- syntax: onClick={() => emojiClickHandler(emoji)}
+- syntax: onClick={() => emojiClickHandler(emoji)} -->
