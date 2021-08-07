@@ -177,8 +177,9 @@ main .main__1 {
   background-image: url(/img/Myblog.png);
 }
 
-.BirthdayReminder {
-  background-image: url(/img/birthday.png);
+.ReactApps {
+  background-size: contain;
+  background-image: url(/img/react-2.svg);
 }
 
 .main_container:hover {
