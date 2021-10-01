@@ -182,6 +182,10 @@ main .main__1 {
   background-image: url(/img/react-2.svg);
 }
 
+.BookmarkLandingPage{
+  background-image: url(/img/BookmarkLandingPage.png);
+}
+
 .main_container:hover {
   background: #0ed0fb;
   transform: scale(1.1);
